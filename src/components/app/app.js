@@ -5,10 +5,16 @@ import CarsList from '../carsList/carsList';
 
 function App() {
   return (
-    <main className={styles.app}>
+    <React.Fragment>
+      <div>
+        <h1> Filter and searching react app</h1>
+      </div>
+      <main className={styles.app}>
 
-      <CarsList/>
-    </main>
+        <CarsList/>
+      </main>
+    </React.Fragment>
+
   );
 }
 

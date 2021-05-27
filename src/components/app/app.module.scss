@@ -1,3 +1,9 @@
+@import './../../scss/vars/vars.scss';
+
 .app {
     display: flex;
+}
+h1 {
+    text-align: center;
+    color: $color2;
 }

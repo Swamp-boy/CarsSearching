@@ -1,10 +1,21 @@
+@import './../../scss/vars/vars.scss';
 .cardContainer {
-    border: 1px solid black;
+    border: 1px solid $color2;
     width: 250px;
+    border-radius: 15px;
 }
 .topBlock {
     display: flex;
     justify-content: space-between;
+    margin: 0 15px;
 }
 .characteristics {
+    list-style-type: none;
+    color: $color2;
+}
+.brand {
+    color: $color1;
+}
+.model {
+    color: $color1;
 }
