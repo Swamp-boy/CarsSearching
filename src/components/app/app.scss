@@ -1,6 +1,11 @@
-.carList {
-    padding-top: 20px;
-    flex-basis: 70%;
+@import './../../scss/vars/vars.scss';
+
+h1 {
+    text-align: center;
+    color: $color2;
+}
+.cars-list {
+    margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, 250px);
     justify-content: space-between;
