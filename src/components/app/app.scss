@@ -6,9 +6,6 @@ h1 {
 }
 .cars-list {
     margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    justify-content: space-between;
-    column-gap: 10px;
-    grid-row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
